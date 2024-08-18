@@ -1,0 +1,80 @@
+/* External CSS - Latihan 1 */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Selektor Elemen - Latihan 2 */
+p {
+    color: red;
+}
+
+/* Selektor Kelas - Latihan 2 */
+.container {
+    background-color: yellow;
+}
+
+/* Selektor ID - Latihan 2 */
+#highlight {
+    color: orange;
+    font-size: 20px;
+}
+
+/* Selektor Atribut - Latihan 2 */
+a:hover {
+    color: blue;
+}
+
+/* Latihan 3: Mempraktikkan Box Model */
+#boxModel {
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 15px;
+}
+
+/* Latihan 4: Mengatur Tata Letak dengan Flexbox */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    padding: 10px;
+    border: 2px solid grey;
+}
+
+/* Latihan 5: Styling Lanjutan dengan CSS */
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    background-image: url('background.jpg'); /* Ganti dengan URL gambar yang sebenarnya */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.advanced-style {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right, blue, purple);
+}
+
+/* Latihan 6: Responsif dengan Media Queries */
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    body {
+        background-color: #e0f7fa;
+    }
+}
